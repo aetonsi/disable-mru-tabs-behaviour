@@ -1,0 +1,24 @@
+{
+  "name": "disable-mru-tabs-behaviour",
+  "displayName": "Disable MRU tabs behaviour",
+  "description": "Simple keybindings / keymap to disable the annoying MRU behaviour which is the default of the VS Code editor.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+      },
+      {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+      }
+    ]
+  }
+}
