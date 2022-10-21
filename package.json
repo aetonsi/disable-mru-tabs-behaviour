@@ -4,6 +4,7 @@
     "type": "git",
     "url": "https://github.com/aetonsi/disable-mru-tabs-behaviour.git"
   },
+  "publisher": "aetonsi",
   "displayName": "Disable MRU tabs behaviour",
   "description": "Simple keybindings / keymap to disable the annoying MRU behaviour which is the default of the VS Code editor.",
   "version": "0.0.1",
